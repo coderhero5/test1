@@ -1,0 +1,41 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.header-main_item{
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    border-bottom: 3px solid #ffffffb2;
+    padding: 10px,0;
+    transition: 5s;
+    cursor: pointer;
+    &:hover{
+        transform: scale(1.01);
+        box-shadow: 12px 6px 14px #000000be;
+    }
+}
+.header-main_item2{
+    position: sticky;
+    top: 0;
+    border: none;
+    color: black;
+    backdrop-filter: blur(3px);
+    &:hover{
+        
+    }
+}
